@@ -1,0 +1,123 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color:#F2F1F4;
+    font-family:"Open Sans", Arial;
+    margin: 0 auto;
+    color:#6a6d70;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    text-align:center;
+    padding: 10% 10%;
+}
+
+h1{
+    font-family:"PT Sans Narrow";
+    color:#30A894;
+    font-size:4rem;
+    margin-bottom:0;
+    text-align:left;
+    
+}
+
+h2{
+    font-family:"PT Sans Narrow";
+    color:#30A894;
+    font-size:2.4rem;
+    text-align:left;
+}
+
+header nav{
+    background-color:#30A894;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
+header nav a{
+    color:white;
+    text-decoration:none;
+    display:block;
+    
+}
+
+header nav a:hover{
+    background-color:#38B5A0;
+}
+
+.texte img{
+    max-width:100%;
+}
+
+.texte hr{
+    border:none;
+    height:1px;
+    background-color:#30A894;
+    
+}
+
+.texte p{
+    
+    text-align:justify;
+}
+
+.texte a{
+    text-decoration:none;
+    color:#49B2B4;
+}
+
+aside{
+    background-color:#B8DCB1;
+    color:#314C35;
+    text-align:justify;
+    padding: 1em 1em 1em;
+    display:none;
+}
+
+aside hr{
+    border:none;
+    height:1px;
+    background-color:#30A894;
+}
+
+#licence{
+    text-align:center;
+}
+
+/*Responsive tablette */
+@media screen and (min-width: 768px){
+    aside{
+        display:block;
+        
+    }
+}
+
+/*Responsive desktop */
+@media screen and (min-width : 1024px){
+    
+   header nav a{
+       display:inline-block;
+       padding:2% 10%;
+     /*padding*/
+   }
+   
+   .texte{
+       width:64%;
+       display:block;
+       float:left;
+       padding:20px 20px 20px 0;
+       
+   }
+   
+    aside{
+        width:30%;
+        display:block;
+        float:right;
+        
+    }
+    .stopFlottement{
+        clear:both;
+    }
+    
+}
